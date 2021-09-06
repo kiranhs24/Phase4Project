@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Appium and Selenium">
+
+	<test name="Selenium Docker">
+		<classes>
+			<class name="testCases.SeleniumDocker" />
+		</classes>
+	</test>
+
+	<test name="Appium Docker">
+		<classes>
+			<class name="testCases.SwiggyAppium" />
+		</classes>
+	</test>
+
+</suite> 
